@@ -3,7 +3,8 @@ package day7함수;
 public class Ex08 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
 		int result1 = a(1);
 		System.out.println(result1);
 
