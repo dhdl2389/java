@@ -9,7 +9,7 @@ public class Localdate {
 	   public static void main(String[] args) {
 	      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd");
 
-	      LocalDate date1 = LocalDate.parse("20220211", formatter);
+	      LocalDate date1 = LocalDate.parse("20250422", formatter);
 	      LocalDate date2 = LocalDate.now();
 
 	      long days = DAYS.between(date1, date2);
