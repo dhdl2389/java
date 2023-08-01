@@ -1,0 +1,19 @@
+package day11.inheritance;
+
+public class Animal {
+
+	public void 짖는다() {
+		System.out.println("짖는다");
+	}
+	
+	public void 먹는다() {
+		System.out.println("먹는다");
+	}
+	
+	public void 잔다() {
+		System.out.println("잔다");
+	}
+	
+	
+	
+}
