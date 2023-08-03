@@ -10,6 +10,5 @@ public class Warrior extends Player {
 	public String GameEnding() {
 		this.End = " 검과 도끼 방패로 세상을 구할 것 입니다.";
 		return End;
-
 	}
 }

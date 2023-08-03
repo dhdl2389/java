@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/dhdl2/OneDrive/문서/java 서브파일/MyCalculator.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
