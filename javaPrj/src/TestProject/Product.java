@@ -1,10 +1,11 @@
-package 올리브영프로그램;
+package TestProject;
 
 public class Product {
 	String name;
 	int originalPrice;
 	int discountedPrice;
 	int stock; // 재고 수량 변수로 수정
+	
 
 	public Product() {
 		// TODO Auto-generated constructor stub
@@ -15,21 +16,5 @@ public class Product {
 		this.originalPrice = originalPrice;
 		this.discountedPrice = discountedPrice;
 		this.stock = stock;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public int getPrice() {
-		return originalPrice;
-	}
-
-	public int getSalePrice() {
-		return discountedPrice;
-	}
-
-	public int getDiscount() {
-		return stock;
 	}
 }

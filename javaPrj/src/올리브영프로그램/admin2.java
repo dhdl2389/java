@@ -2,7 +2,7 @@ package 올리브영프로그램;
 
 import java.util.Scanner;
 
-public class lastDance {
+public class admin2 {
 
 	public static void main(String[] args) {
 		Product[][] makeup = {
@@ -32,14 +32,14 @@ public class lastDance {
 						new Product("라운드랩 1025 독도 토너 500ml+200ml 기획", 45000, 29800, 123),
 						new Product("브링그린 티트리시카수딩토너 대용량증정기획", 27000, 20520, 12) } };
 
-		Product[][] otherItems = {
+		Product[][] Items = {
 				// 기타용품
 				{ new Product("닥터아토 손소독티슈 20매", 1600, 1600, 120), new Product("필리밀리 듀얼 라운드 화장솜 60P", 3300, 3300, 12),
 						new Product("디어달리아 블루밍에디션 프로페탈 브러쉬", 19000, 19000, 30),
 						new Product("메디힐 비타 에센셜 마스크 10매입", 10000, 10000, 12) } };
 		Cosmetic[] menu = { new Cosmetic("색조화장품 - 베이스", makeup[0]), new Cosmetic("색조화장품 - 포인트", makeup[1]),
 				new Cosmetic("향수", perfume[0]), new Cosmetic("기초화장품 - 선케어", skincare[0]),
-				new Cosmetic("기초화장품 - 스킨로션", skincare[1]), new Cosmetic("기타용품", otherItems[0]) };
+				new Cosmetic("기초화장품 - 스킨로션", skincare[1]), new Cosmetic("기타용품", Items[0]) };
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
@@ -77,14 +77,14 @@ public class lastDance {
 						System.out.println((i + 1) + ":" + selectCategory.products[i].name);
 					}
 
-					int typeIndex = sc.nextInt();
+					int change = sc.nextInt();
 
-					if (typeIndex >= 1 && typeIndex <= selectCategory.products.length) {
+					if (change >= 1 && change <= selectCategory.products.length) {
 						System.out.println("새로운 재고 수량을 입력하세요:");
 						int newStock = sc.nextInt();
-						selectCategory.changeStock(typeIndex - 1, newStock);
+						selectCategory.changeStock(change - 1, newStock);
 					} else {
-						System.out.println("유효하지 않은 화장품 번호입니다.");
+						System.out.println("없는 번호입니다.");
 					}
 					break;
 				case 3:
@@ -94,20 +94,20 @@ public class lastDance {
 						System.out.println((i + 1) + ":" + selectCategory.products[i].name);
 					}
 
-					typeIndex = sc.nextInt();
+					change = sc.nextInt();
 
-					if (typeIndex >= 1 && typeIndex <= selectCategory.products.length) {
+					if (change >= 1 && change <= selectCategory.products.length) {
 						System.out.println("새로운 할인 가격을 입력하세요:");
-						int newDiscountedPrice = sc.nextInt();
-						selectCategory.products[typeIndex - 1].discountedPrice = newDiscountedPrice;
-						System.out.println(selectCategory.products[typeIndex - 1].name + "의 할인 가격이 "
-								+ newDiscountedPrice + "₩로 수정되었습니다.");
+						int newDiscountPrice = sc.nextInt();
+						selectCategory.products[change - 1].discountedPrice = newDiscountPrice;
+						System.out.println(selectCategory.products[change - 1].name + "의 할인 가격이 " + newDiscountPrice
+								+ "원으로 수정되었습니다.");
 					} else {
-						System.out.println("유효하지 않은 화장품 번호입니다.");
+						System.out.println("없는 번호입니다.");
 					}
 					break;
 				default:
-					System.out.println("유효하지 않은 선택입니다.");
+					System.out.println("잘못된 선택입니다.");
 					break;
 				}
 			}

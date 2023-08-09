@@ -1,0 +1,24 @@
+Name:에스쁘아 프로테일러 파운데이션 비벨벳, Price:40000, Sale Price:34000, Discount:10
+Name:파넬 시카마누 세럼쿠션 (2종 중 택1), Price:32000, Sale Price:29800, Discount:20
+Name:클리오 킬커버 파운웨어 파운데이션, Price:34000, Sale Price:23800, Discount:30
+Name:네이밍 레이어드 핏 쿠션 12g, Price:28000, Sale Price:22400, Discount:40
+Name:롬앤쥬시래스팅틴트, Price:9900, Sale Price:8400, Discount:10
+Name:베네피트 프리사이슬리 마이브로우펜슬, Price:40000, Sale Price:34000, Discount:10
+Name:힌스뉴뎁스아이섀도우, Price:18000, Sale Price:14400, Discount:10
+Name:홀리카홀리카 젤리도우블러셔, Price:9500, Sale Price:6500, Discount:50
+Name:클린 웜코튼, Price:93000, Sale Price:58590, Discount:20
+Name:포맨트 시그니처 퍼퓸, Price:39000, Sale Price:37000, Discount:32
+Name:랑방에끌라드 아르페쥬, Price:64000, Sale Price:44800, Discount:10
+Name:안나수이 스카이, Price:93000, Sale Price:46500, Discount:43
+Name:AHC 마스터즈 에어리치 선스틱 22g, Price:21000, Sale Price:14060, Discount:30
+Name:식물나라 산소수 워터프루프 선스프레이 SPF50+PA++++1+1 기획, Price:14800, Sale Price:13900, Discount:10
+Name:닥터지 그린 마일드 업 선플러스 50ml 1+1 기획세트, Price:29000, Sale Price:26100, Discount:10
+Name:라운드랩 자작나무 무기자차 선크림 50ml 1+1 기획, Price:25000, Sale Price:25000, Discount:30
+Name:아누아 어성초 77 수딩 토너 350ML 리필 기획세트, Price:49000, Sale Price:31900, Discount:12
+Name:토리든 다이브인 저분자 히알루론산 토너 500ml 기획, Price:29000, Sale Price:19800, Discount:15
+Name:라운드랩 1025 독도 토너 500ml+200ml 기획, Price:45000, Sale Price:29800, Discount:123
+Name:브링그린 티트리시카수딩토너 대용량증정기획, Price:27000, Sale Price:20520, Discount:12
+Name:닥터아토 손소독티슈 20매, Price:1600, Sale Price:1600, Discount:120
+Name:필리밀리 듀얼 라운드 화장솜 60P, Price:3300, Sale Price:3300, Discount:12
+Name:디어달리아 블루밍에디션 프로페탈 브러쉬, Price:19000, Sale Price:19000, Discount:30
+Name:메디힐 비타 에센셜 마스크 10매입, Price:10000, Sale Price:10000, Discount:12

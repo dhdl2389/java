@@ -15,9 +15,7 @@ public class Object쓰기반복 {
 
 		ArrayList<Score> list = new ArrayList<>();
 
-		list.add(new Score("lee", 90));
-		list.add(new Score("kee", 90));
-		list.add(new Score("woo", 100));
+		
 
 		// 파일저장
 		ObjectOutputStream oos = null;

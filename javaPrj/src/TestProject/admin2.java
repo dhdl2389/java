@@ -1,8 +1,8 @@
-package 올리브영프로그램;
+package TestProject;
 
 import java.util.Scanner;
 
-public class lastDance2 {
+public class admin2 {
 
 	public static void main(String[] args) {
 		Product[][] makeup = {
@@ -98,9 +98,9 @@ public class lastDance2 {
 
 					if (change >= 1 && change <= selectCategory.products.length) {
 						System.out.println("새로운 할인 가격을 입력하세요:");
-						int newDiscountedPrice = sc.nextInt();
-						selectCategory.products[change - 1].discountedPrice = newDiscountedPrice;
-						System.out.println(selectCategory.products[change - 1].name + "의 할인 가격이 " + newDiscountedPrice
+						int newDiscountPrice = sc.nextInt();
+						selectCategory.products[change - 1].discountedPrice = newDiscountPrice;
+						System.out.println(selectCategory.products[change - 1].name + "의 할인 가격이 " + newDiscountPrice
 								+ "원으로 수정되었습니다.");
 					} else {
 						System.out.println("없는 번호입니다.");

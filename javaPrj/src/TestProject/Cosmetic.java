@@ -1,4 +1,4 @@
-package 올리브영프로그램;
+package TestProject;
 
 public class Cosmetic {
 
@@ -37,25 +37,9 @@ public class Cosmetic {
 			System.out.println("없는 번호입니다.");
 		}
 	}
-
 ////
 	public void addProduct(Product product) {
 		// TODO Auto-generated method stub
-
-	}
-
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public String getStock() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public String getPrice() {
-		// TODO Auto-generated method stub
-		return null;
+		
 	}
 }
