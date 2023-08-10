@@ -1,4 +1,4 @@
-package Project;
+package 파일연습;
 
 public class Product {
 	String name;

@@ -1,10 +1,12 @@
-package 올리브영프로그램;
+package 파일연습;
 
 import java.util.Scanner;
 
-public class admin2 {
+public class Admintest {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
 		Product[][] makeup = {
 				// 기초화장품
 				{ new Product("에스쁘아 프로테일러 파운데이션 비벨벳", 40000, 34000, 10),
@@ -42,17 +44,18 @@ public class admin2 {
 				new Cosmetic("기초화장품 - 스킨로션", skincare[1]), new Cosmetic("기타용품", Items[0]) };
 		Scanner sc = new Scanner(System.in);
 
+		
 		while (true) {
 			System.out.println("----- 원하는 파트를 고르세요 -----");
 			for (int i = 0; i < menu.length; i++) {
 				System.out.println((i + 1) + ". " + menu[i].name);
 			}
-			System.out.println("0. 종료");
+			System.out.println("0. 뒤로가기");
 
 			int choice = sc.nextInt();
 
 			if (choice == 0) {
-				System.out.println("종료합니다.");
+				// System.out.println("종료합니다.");
 				break;
 			} else if (choice >= 1) {
 				int categoryIndex = choice - 1;
@@ -113,4 +116,5 @@ public class admin2 {
 			}
 		}
 	}
+
 }
